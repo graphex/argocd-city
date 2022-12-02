@@ -1,0 +1,17 @@
+cert-manager:
+  installCRDs: true
+
+  serviceAccount:
+    annotations:
+      irsaStuffHere: andHere
+
+  securityContext:
+    fsGroup: 1001
+
+  resources:
+    limits:
+      cpu: 100m
+      memory: 64Mi
+    requests:
+      cpu: 10m
+      memory: 32Mi

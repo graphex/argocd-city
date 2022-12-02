@@ -1,0 +1,11 @@
+.DS_Store
+Chart.lock
+.idea
+.idea/
+*.iml
+*.lock
+/**/charts/*.tgz
+/**/charts/*
+/**/tmpcharts/*.tgz
+.gradle/
+build/

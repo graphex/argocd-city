@@ -1,0 +1,9 @@
+apiVersion: v2
+name: cert-manager
+version: 1.9.1
+description: Wraps the upstream cert-manager for use in ArgoCD with custom values
+
+dependencies:
+  - name: "cert-manager"
+    version: v1.10.1
+    repository: "https://charts.jetstack.io"
